@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharath Yuvaraj | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- For Graphs -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Bharath Yuvaraj</h1>
+            <p>Data Analyst | Business Intelligence | Predictive Modeling</p>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Data Analyst with 1.5 years of experience transforming data into actionable insights. Skilled in Python, SQL, Power BI, Tableau, and predictive modeling.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Time Series Analysis</h3>
+                <p>Developed ARIMA and LSTM models to forecast USDA wholesale meat prices. Below is a trend graph:</p>
+                <canvas id="timeSeriesChart"></canvas>
+            </div>
+            <div class="project-card">
+                <h3>Crime Data Visualization</h3>
+                <p>Created dashboards using R to visualize crime trends. Interactive chart:</p>
+                <canvas id="crimeChart"></canvas>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill">
+                    <h4>Python</h4>
+                    <div class="progress-bar" style="width: 90%;"></div>
+                </div>
+                <div class="skill">
+                    <h4>SQL</h4>
+                    <div class="progress-bar" style="width: 85%;"></div>
+                </div>
+                <div class="skill">
+                    <h4>Power BI</h4>
+                    <div class="progress-bar" style="width: 80%;"></div>
+                </div>
+                <div class="skill">
+                    <h4>Tableau</h4>
+                    <div class="progress-bar" style="width: 75%;"></div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:bharathyuvaraj1@gmail.com">bharathyuvaraj1@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/bharath-yuvaraj" target="_blank">linkedin.com/in/bharath-yuvaraj</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Bharath Yuvaraj | Portfolio</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
